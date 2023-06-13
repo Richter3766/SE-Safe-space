@@ -1,12 +1,11 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import BoardList from './components/views/BoardList/BoardList'
 import BoardWrite from './components/views/BoardWrite/BoardWrite'
 import Board from './components/views/Board/Board'
 import BoardDetailPage from './page/BoardDetailPage'
 import Logout from './components/views/Logout/Logout'
-
 
 import MainPage from './page/MainPage'
 import LoginPage from './page/LoginPage'
@@ -22,11 +21,10 @@ import SafeSpace from './components/views/SafeSpace/SafeSpace'
 import BoardPage from './page/BoardPage'
 
 const App = () => {
-
   return (
     <>
       <GlobalStyle />
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/signUp" element={<SignUpPage />} />
@@ -42,7 +40,7 @@ const App = () => {
           <Route path="/safespace" element={<SafeSpace />} />
           <Route path="/Board" element={<Board />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
