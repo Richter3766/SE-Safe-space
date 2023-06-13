@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
 import BoardList from './components/views/BoardList/BoardList'
 import BoardWrite from './components/views/BoardWrite/BoardWrite'
@@ -24,7 +24,7 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
-      <HashRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/signUp" element={<SignUpPage />} />
@@ -40,7 +40,7 @@ const App = () => {
           <Route path="/safespace" element={<SafeSpace />} />
           <Route path="/Board" element={<Board />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   )
 }
