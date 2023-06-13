@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.777bd5af.css",
+    "main.js": "/static/js/main.e31b12ee.js",
+    "static/js/787.81dda431.chunk.js": "/static/js/787.81dda431.chunk.js",
+    "static/media/NotoSansKR-Bold.otf": "/static/media/NotoSansKR-Bold.bad0e182b567b441991f.otf",
+    "static/media/NotoSansKR-Medium.otf": "/static/media/NotoSansKR-Medium.b0d5e046ad43b4c999c5.otf",
+    "static/media/NotoSansKR-Light.otf": "/static/media/NotoSansKR-Light.95195a319b540e00beb2.otf",
+    "static/media/main_slider_2.png": "/static/media/main_slider_2.578df9cb0b44e24123ed.png",
+    "static/media/main_slider_3.png": "/static/media/main_slider_3.396b8dc8587e55d9ce26.png",
+    "static/media/main_slider_1.png": "/static/media/main_slider_1.6beb1206f2e2288c4bc0.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.777bd5af.css.map": "/static/css/main.777bd5af.css.map",
+    "main.e31b12ee.js.map": "/static/js/main.e31b12ee.js.map",
+    "787.81dda431.chunk.js.map": "/static/js/787.81dda431.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.777bd5af.css",
+    "static/js/main.e31b12ee.js"
+  ]
+}
